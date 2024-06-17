@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1 class="colorful-text">
+            <span>T</span>
+            <span>o</span>
+            <span> </span>
+            <span>D</span>
+            <span>o</span>
+            <span> </span>
+            <span>L</span>
+            <span>i</span>
+            <span>s</span>
+            <span>t</span>
+        </h1>
+        <img src="logo.gif" alt="logo">
+    </div>
+    <div class="container">
+        <div class="insidecontainer">
+            <div class="inputs">
+                <input type="text" id="textbox" class="textbox" placeholder="Enter the Task">
+                <input type="date" id="datebox" class="datebox">
+                <button class="buttonaddtask" id="buttonaddtask">Add Task</button>
+            </div>
+            <ul class="taskslist" id="taskslist"></ul>
+            <h3>Search Tasks by Date</h3>
+            <div class="searching">
+                <input type="date" id="searchDatebox" class="searchDatebox">
+                <button id="searchbtn" class="searchbtn">Search</button>
+            </div>
+            <p class="currentDatetime" id="currentDatetime"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
